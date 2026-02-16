@@ -1,5 +1,0 @@
-HAPA TESTNET TRANSACTION:
-Dari: Key1
-Ke: Key2
-Jumlah: 100 HAPA
-Pesan: Simulasi multi-signature

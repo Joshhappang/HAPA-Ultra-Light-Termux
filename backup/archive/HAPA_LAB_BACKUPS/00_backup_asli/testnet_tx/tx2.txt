@@ -1,5 +1,0 @@
-HAPA TESTNET TRANSACTION:
-Dari: Key1
-Ke: Key2
-Jumlah: 50 HAPA
-Pesan: Multi-Sig 3 dari 3

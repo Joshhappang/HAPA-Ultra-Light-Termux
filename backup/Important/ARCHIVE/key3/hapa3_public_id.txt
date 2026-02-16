@@ -1,4 +1,0 @@
-HAPA_ID_3: eksperimen / sandbox
------BEGIN PUBLIC KEY-----
-MCowBQYDK2VwAyEAZx8w82o7vnbeXCjIGi7MotcXFHzaJ4IOBZsR2sSxsOE=
------END PUBLIC KEY-----

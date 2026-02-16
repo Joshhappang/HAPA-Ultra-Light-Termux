@@ -1,6 +1,0 @@
-ATURAN GENESIS HAPA
-
-- Kepemilikan publik selamanya
-- Tidak ada admin tertinggi
-- AI tidak memiliki kekuasaan
-- Ledger transparan

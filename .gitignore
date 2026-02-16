@@ -1,4 +1,6 @@
+# Ledger JSON dan backup tidak di-push
 ledger/
+backup/
 *.json
 *.sqlite
 *.db

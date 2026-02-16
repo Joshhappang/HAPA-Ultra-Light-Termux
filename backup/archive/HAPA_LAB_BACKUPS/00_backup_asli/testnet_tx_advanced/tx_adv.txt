@@ -1,5 +1,0 @@
-HAPA TESTNET ADVANCED TRANSACTION:
-Dari: Key1
-Ke: Key2, Key3
-Jumlah: 30 HAPA ke Key2, 20 HAPA ke Key3
-Pesan: Simulasi multi-sig & pending/auto-return
