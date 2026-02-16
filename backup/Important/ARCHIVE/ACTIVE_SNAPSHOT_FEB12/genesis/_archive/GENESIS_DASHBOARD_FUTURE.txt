@@ -1,0 +1,31 @@
+HAPA DASHBOARD — FUTURE READY
+
+Fungsi utama:
+- Menampilkan data inti: saldo, block, transaksi, status node
+- Menyampaikan permintaan: transaksi → Node melalui Web 2
+- Tidak memutuskan / tidak mengubah ledger
+
+Fitur adaptif:
+- Tampilan modular → bisa pilih modul ditampilkan / disembunyikan
+- Responsif → desktop, tablet, HP
+- Bisa update tanpa merusak integritas internal
+
+Prinsip utama:
+- Web 1 → Read
+- Web 2 → Request
+- Tombol edit / control → OFF selamanya
+- Dashboard fleksibel, aman, & scalable
+
+Tipe & Modul:
+- Minimal / Core: Total block, saldo, status node (Read & Request)
+- Analitik / Grafis: Riwayat transaksi, grafik, multi-node
+- Mobile / Compact: Saldo, transaksi terakhir, node online
+- Modular / Custom: Tambah / hapus modul (Read/Request, internal aman)
+- API / Integrasi: Ambil data Web1 / kirim permintaan Web2 (Genesis Rule)
+- Future Adaptive: Sesuaikan jumlah user / transaksi, siap skala besar
+
+Prinsip Kunci Masa Depan:
+- External fleksibel, internal mutlak → Node & Ledger tetap kebenaran tunggal
+- Modular & updateable → fitur baru bisa ditambahkan kapan saja
+- Responsif & scalable → dashboard tetap lancar untuk desktop, HP, atau skala besar
+- Tombol / control → OFF selamanya jika memutuskan atau mengubah state

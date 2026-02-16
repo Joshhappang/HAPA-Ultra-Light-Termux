@@ -1,0 +1,90 @@
+====================================================
+HAPA_GUIDE.txt
+Panduan Aman HAPA — HP SE / Termux
+Kunci → Identitas → Publik → Backup
+====================================================
+
+FILOSOFI UTAMA
+--------------
+HAPA dibuat untuk PUBLIK,
+tetapi KUNCI dan IDENTITAS harus dipahami PEMILIK dulu.
+Semua langkah di sini:
+- Lokal
+- Aman
+- Tidak menyentuh Genesis
+- Bisa dihentikan kapan saja
+
+
+DIAGRAM ALUR BESAR
+------------------
+
+┌───────────────────────────────┐
+│          HAPA_LAB             │
+│   (ruang kerja lokal)         │
+└─────────────┬─────────────────┘
+              │
+              ▼
+┌───────────────────────────────┐
+│        PRIVATE KEY             │
+│      hapa_private.key          │
+│   RAHASIA — JANGAN DIBAGIKAN   │
+└─────────────┬─────────────────┘
+              │  tanda tangan
+              ▼
+┌───────────────────────────────┐
+│      IDENTITAS LOKAL           │
+│   hapa_identity.txt            │
+│   + signature (.sig)           │
+│   bisa diverifikasi            │
+└─────────────┬─────────────────┘
+              │  salin aman
+              ▼
+┌───────────────────────────────┐
+│       VERSI PUBLIK             │
+│   hapa_public_id.txt           │
+│   boleh dibagikan              │
+└─────────────┬─────────────────┘
+              │
+              ▼
+┌───────────────────────────────┐
+│           BACKUP               │
+│   HAPA_KEYS_BACKUP.tar.gz      │
+│   simpan di tempat aman        │
+└───────────────────────────────┘
+
+
+LANGKAH TEKNIS (COPY-PASTE)
+---------------------------
+
+# 1. Masuk ruang kerja
+cd ~
+mkdir -p HAPA_LAB
+cd HAPA_LAB
+
+# 2. Install OpenSSL (jika belum)
+pkg install openssl-tool
+
+# 3. Buat private key (RAHASIA)
+openssl genpkey -algorithm ed25519 -out hapa_private.key
+
+# 4. Buat public key
+openssl pkey -in hapa_private.key -pubout -out hapa_public.key
+
+# 5. Pesan pertama
+echo "Kunci pertama HAPA milik pemilik sah" > pesan.txt
+
+# 6. Tanda tangan pesan
+openssl pkeyutl -sign -inkey hapa_private.key -in pesan.txt -out tanda_tangan.bin
+
+# 7. Verifikasi pesan
+openssl pkeyutl -verify -pubin -inkey hapa_public.key -in pesan.txt -sigfile tanda_tangan.bin
+
+# 8. Buat identitas lokal
+echo "HAPA_ID_1: pemilik sah" > hapa_identity.txt
+cat hapa_public.key >> hapa_identity.txt
+
+# 9. Tanda tangan identitas
+openssl pkeyutl -sign -inkey hapa_private.key -in hapa_identity.txt -out hapa_identity.sig
+
+# 10. Verifikasi identitas
+openssl pkeyutl -verify -pubin -

@@ -1,0 +1,31 @@
+GENESIS RULE — WEB HAPA
+
+1. Web bukan bagian inti sistem.
+   Web adalah antarmuka manusia, bukan otoritas.
+
+2. Sistem HAPA hanya mengakui dua jenis web:
+   a. Web 1 — Tampilan (Read-Only)
+   b. Web 2 — Interaksi (Request)
+
+3. Web 1 (Read-Only):
+   - Hanya membaca dan menampilkan data
+   - Tidak dapat mengubah ledger
+   - Tidak dapat mempengaruhi node
+
+4. Web 2 (Request):
+   - Hanya mengirim permintaan
+   - Tidak pernah memutuskan hasil
+   - Semua keputusan ada pada node
+
+5. Web 3 (Control/Kendali) dilarang sepenuhnya:
+   - Tidak ada admin panel berbasis web
+   - Tidak ada web yang dapat mengubah ledger atau node
+
+6. Prinsip Kedaulatan:
+   - Ledger adalah kebenaran
+   - Node adalah penilai
+   - Web tidak berdaulat
+
+7. Aturan ini bersifat Genesis:
+   - Berlaku sejak blok pertama
+   - Tidak dapat diubah oleh web, individu, atau AI

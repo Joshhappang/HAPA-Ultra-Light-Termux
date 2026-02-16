@@ -1,0 +1,16 @@
+Genesis Block
+                │
+                ▼
+      PoW – Mining Publik (HP Android)
+                │
+                ▼
+       Coinbase Reward tercatat
+                │
+                ▼
+      PoS – Staking Publik (max $100.000/account/device)
+                │
+                ▼
+      PoA – Validator Keamanan (10%)
+                │
+                ▼
+      Blok Berikutnya

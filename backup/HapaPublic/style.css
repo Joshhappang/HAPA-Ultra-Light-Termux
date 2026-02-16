@@ -1,0 +1,4 @@
+body { font-family: sans-serif; padding: 1em; background: #f0f0f0; color: #333; }
+h1 { text-align: center; }
+#ledger-info { margin: 1em 0; padding: 1em; background: #fff; border-radius: 8px; box-shadow: 0 0 5px #ccc; }
+#chart-section { margin: 1em 0; padding: 1em; background: #fff; border-radius: 8px; box-shadow: 0 0 5px #ccc; }

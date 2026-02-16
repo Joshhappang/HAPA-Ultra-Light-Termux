@@ -1,0 +1,52 @@
+=====================================================
+HAPA TESTNET ADVANCED — MULTI-SIG + PENDING/AUTO-RETURN
+=====================================================
+
+                ┌─────────────────────────────┐
+                │      TRANSAKSI HAPA         │
+                │       tx_adv.txt            │
+                │ Dari: Key1                  │
+                │ Ke: Key2, Key3             │
+                │ Jumlah: 30 HAPA → Key2     │
+                │        20 HAPA → Key3      │
+                │ Pesan: Multi-Sig & Pending │
+                └─────────────┬───────────────┘
+                              │
+         ┌────────────────────┴────────────────────┐
+         │                                         │
+         ▼                                         ▼
+ ┌───────────────┐                           ┌───────────────┐
+ │    KEY1       │                           │    KEY2       │
+ │ hapa_private  │                           │ hapa2_private │
+ │ .key          │                           │ .key          │
+ └───────┬───────┘                           └───────┬───────┘
+         │ Sign                                      │ Sign
+         ▼                                           ▼
+ ┌───────────────┐                           ┌───────────────┐
+ │ tx_adv_sig_key1│                           │ tx_adv_sig_key2│
+ └───────┬───────┘                           └───────┬───────┘
+         │                                           │
+         └───────────── Verifikasi Success ──────────┘
+                              │
+                              ▼
+               ┌─────────────────────────────┐
+               │ Key3 Belum menandatangani  │
+               │ Status: PENDING 5 menit    │
+               └─────────────┬───────────────┘
+                             │
+                  ┌──────────┴───────────┐
+                  │                      │
+           5 Menit Terlewati        Key3 Menandatangani
+                  │                      │
+                  ▼                      ▼
+   ┌─────────────────────────┐  ┌─────────────────────────┐
+   │ Dana ke Key3 kembali ke │  │ Transaksi lengkap valid │
+   │ Key1 (auto-return)      │  │ Multi-Sig 3 dari 3      │
+   └─────────────────────────┘  └─────────────────────────┘
+
+=====================================================
+⚠ Catatan:
+- Simulasi lokal → Genesis tetap aman
+- Pending 5 menit = simulasi mekanisme auto-return
+- Multi-Sig 2 dari 3 + auto-return Key3 → aman untuk latihan
+=====================================================

@@ -1,0 +1,56 @@
+cd ~/HAPA_ZERO/genesis
+cat > GENESIS_BLOCK.txt << EOF
+===========================
+HAPA (HP) GENESIS BLOCK – FINAL
+===========================
+
+Timestamp: 2026-02-05 08:00:00 UTC
+Total Supply: 92.500 HP (HAPA)
+Patokan Harga: $0,5 / HP (HAPA)
+Market Cap: $46.250 USD
+
+---------------------------
+Alokasi Awal HAPA (HP)
+---------------------------
+- Tim / Cadangan: 49.950 HP → Cadangan & Reward Mining
+- Investor Besar: 33.300 HP → Staking & Transaksi Prioritas
+- Publik Kecil: 9.250 HP → Likuiditas Awal
+
+---------------------------
+Transaksi Awal & Mining Reward
+---------------------------
+- Tim menjual 1.000 HP → Publik Kecil (10.250 HP, $5.125)
+- Reward Mining: 100 HP per block → Penambang
+- Investor Besar Staking: 5.000 HP → nilai tetap $16.650
+
+---------------------------
+Rules Mainnet HAPA (HP)
+---------------------------
+1. Kepemilikan publik selamanya
+2. Tidak ada admin tertinggi
+3. AI tidak memiliki kekuasaan
+4. Ledger transparan
+5. Block validation interval = 5 menit
+6. Transfer sah hanya jika kedua pihak menyetujui
+7. Jika salah satu pihak tidak konfirmasi → transaksi ditolak
+8. Ledger update permanen setelah validasi
+9. Supply projection realistis (54%-36%-10% HP)
+10. Fee transaksi cukup untuk keamanan
+11. PoW minimal stabil ≥ 1.000 block
+12. User eksternal harus sudah terdaftar
+
+---------------------------
+Notes
+---------------------------
+- Semua aturan bersifat final draft
+- Transaksi dicatat di ledger individual per user
+- Riwayat transaksi dapat dicek di dashboard
+- Pending transaction mengikuti aturan dual confirmation
+- Mining reward diambil dari cadangan tim 54% HP
+- Patokan harga awal: $0,5 / HP (HAPA)
+- Total Supply: 92.500 HP (HAPA)
+
+===========================
+END OF GENESIS BLOCK
+===========================
+EOF

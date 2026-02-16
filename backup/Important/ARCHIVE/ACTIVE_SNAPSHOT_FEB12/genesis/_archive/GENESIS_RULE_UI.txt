@@ -1,0 +1,25 @@
+GENESIS RULE UI – HAPA
+
+1. UI / Web hanya berfungsi sebagai:
+   - Web 1 : Read / Tampilan
+   - Web 2 : Request / Permintaan
+
+2. Web 3 (Control / Kendali) dilarang mutlak.
+
+3. Tombol UI tidak pernah memutuskan apa pun.
+   Tombol hanya menyampaikan permintaan ke sistem.
+
+4. UI / JS dilarang:
+   - Approve / Reject
+   - Validasi keputusan
+   - Edit / Reset ledger
+   - Mengubah saldo
+   - Kontrol node
+   - Restart / Stop sistem
+   - Admin / Override / Hak istimewa
+
+5. Semua tombol di poin (4):
+   OFF selamanya.
+   Tidak dibuat. Tidak disembunyikan. Tidak diaktifkan.
+
+Genesis UI terkunci permanen.

@@ -1,0 +1,15 @@
+============================== HAPA_Q GENESIS RULE ==============================
+
+NETWORK NAME       : HAPA_Q
+TIMESTAMP          : 2026-02-09 00:00:00 UTC
+VERSION            : v1.0
+DUMMY PQC SEAL     : 67c0f72ba0dc75f1bc56020e7ea315dd05907ac94257f9a511684ace04070e1e
+SHA256 GENESIS HASH: 176fed34046b4e2c7ddfc2c82e4680a4632c686c2188a5735d8c6c31bd2f4688
+
+NOTES:
+- Genesis hash ini immutable, menjadi fondasi semua blok HAPA_Q.
+- Dummy PQC seal siap diupgrade ke signature quantum-proof di masa depan.
+- Passphrase AES-256 untuk backup tetap berlaku dan aman.
+- Semua node dan wallet harus menggunakan hash ini untuk sinkronisasi.
+
+================================================================================
