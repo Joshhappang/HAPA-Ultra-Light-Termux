@@ -1,0 +1,14 @@
+# Node / Python / Termux related
+*.pyc
+__pycache__/
+
+# Wallets & ledger data
+ledger/
+backup/
+HAPA/ledger/ledger_*/ledger_sample/*.json
+*.json
+
+# Other local sensitive files
+*.sh
+*.txt
+
