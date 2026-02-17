@@ -1,0 +1,51 @@
+====================== HAPA GENESIS RULES MASTER (PUBLIC) ======================
+VERSION: 20260210_PUBLIC
+Tanggal Update: 2026-02-10
+
+-------------------------------------------------------------------
+1️⃣ Kepemilikan Publik
+- Semua HAPA tercatat di ledger publik
+- Tidak ada admin tertinggi
+- Ledger immutable, transparan
+- Private keys **tidak disimpan di public view**
+
+2️⃣ Total HAPA & Distribusi
+- Total supply: 92.500 HAPA
+- Mining: 20.000 HAPA
+- Staking: 15.000 HAPA
+- Stock Market: 10.000 HAPA
+- Bonds / Obligations: 10.000 HAPA
+- Entertainment / Travel: 10.000 HAPA
+- Digital Art / Karya Seni: 12.500 HAPA
+- Content Creators: 15.000 HAPA
+
+3️⃣ AI Tidak Memiliki Kekuasaan
+- AI hanya monitoring & analisis
+- Tidak bisa menambah, menghapus, atau memutuskan transaksi
+
+4️⃣ Ledger & Transaksi
+- Semua transaksi diverifikasi publik
+- Dual confirmation wajib: pengirim & penerima
+- Pending transaction dikembalikan otomatis jika tidak valid
+- Fee minimal agar transaksi tetap sustainable
+- Unit terkecil: 1 HAPA = 1.048.576 josh
+
+5️⃣ Staking & Reward
+- Reward diberikan hanya untuk blok valid
+- Proporsional terhadap jumlah stake
+- Mendorong stabilitas & partisipasi publik
+
+6️⃣ Fase ALFA → OMEGA
+- ALFA: testing awal, blok time ±1 menit
+- BETA: publik terbatas, blok time ±2 menit
+- GAMMA: stabilisasi, blok time ±2 menit
+- DELTA: siap kerja, blok time ±3 menit
+- OMEGA: aturan final, blok time ±5 menit
+
+7️⃣ Prinsip Etika & Keamanan
+- Tidak ada intervensi pendiri setelah OMEGA
+- Semua aturan transparan & tercatat di blockchain
+- Skala tinggi tetap aman
+- Reward & blok valid mengikuti aturan final
+
+=====================================================================

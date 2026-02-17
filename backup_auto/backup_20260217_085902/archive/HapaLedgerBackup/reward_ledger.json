@@ -1,0 +1,10 @@
+{
+  "PoW": 5400,
+  "PoS": 3600,
+  "PoA": 1000,
+  "last_block": {
+    "message": "HapaCoin Block 1",
+    "signature": "ENgbPRHO2RmjLjR+7KWBc0RBU+yksJHnZcu6leuh5zuTjoOBntZz//XIIqWIUhvlgKm4OuvJGgMl5Jkg05GuCQ==",
+    "timestamp": "2026-02-14T05:25:00.651Z"
+  }
+}

@@ -1,0 +1,19 @@
+[
+    {
+        "balance": 5000,
+        "history": [],
+        "hash": "5bf62d612a148487d74c1cc974fe5927e6bd6c16296f1c476f3820aa888f3b0b"
+    },
+    {
+        "balance": 3000,
+        "history": [],
+        "previous_hash": "5bf62d612a148487d74c1cc974fe5927e6bd6c16296f1c476f3820aa888f3b0b",
+        "hash": "8169fbc91e34b5c3b600a3397c863fb6969da3c131b3bc47ed7027cf699b6c77"
+    },
+    {
+        "balance": 2000,
+        "history": [],
+        "previous_hash": "8169fbc91e34b5c3b600a3397c863fb6969da3c131b3bc47ed7027cf699b6c77",
+        "hash": "96cb811495d540a87dfc8085846887004cad30ee18bf876aa15094878cbf5bc4"
+    }
+]

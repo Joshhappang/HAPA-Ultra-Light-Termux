@@ -1,0 +1,4 @@
+HAPA_ID_1: pemilik sah
+-----BEGIN PUBLIC KEY-----
+MCowBQYDK2VwAyEAKPCC4qveVDYjQ/qPvoEmSCYymhORSbt+vsk7k4HzShI=
+-----END PUBLIC KEY-----

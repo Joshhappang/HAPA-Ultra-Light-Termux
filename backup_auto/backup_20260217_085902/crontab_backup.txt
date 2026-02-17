@@ -1,0 +1,4 @@
+##########0 2 * * * bash /data/data/com.termux/files/home/HAPA_LAB/hapa_lab_full_pipeline.sh >> /data/data/com.termux/files/home/HAPA_LAB_RESTORED/cron_log.txt 2>&1
+##########* * * * * /data/data/com.termux/files/home/HAPA_MAINNET/run_mainnet.sh >> /data/data/com.termux/files/home/HAPA_MAINNET/logs/cron_mainnet.log 2>&1
+##########* * * * * /data/data/com.termux/files/home/HAPA_MAINNET/run_mainnet.sh >> /data/data/com.termux/files/home/HAPA_MAINNET/logs/cron_mainnet.log 2>&1
+##########* * * * * /data/data/com.termux/files/home/HAPA_MAINNET/run_mainnet.sh >> /data/data/com.termux/files/home/HAPA_MAINNET/logs/cron_mainnet.log 2>&1

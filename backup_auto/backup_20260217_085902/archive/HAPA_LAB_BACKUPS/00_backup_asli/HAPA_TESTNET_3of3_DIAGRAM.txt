@@ -1,0 +1,42 @@
+=====================================================
+HAPA TESTNET TRANSACTION — MULTI-SIGNATURE 3 DARI 3
+=====================================================
+
+                ┌─────────────────────────────┐
+                │      TRANSAKSI HAPA         │
+                │       tx2.txt               │
+                │ Dari: Key1                  │
+                │ Ke: Key2                    │
+                │ Jumlah: 50 HAPA             │
+                │ Pesan: Multi-Sig 3 dari 3   │
+                └─────────────┬───────────────┘
+                              │
+         ┌────────────────────┼────────────────────┐
+         │                    │                    │
+         ▼                    ▼                    ▼
+ ┌───────────────┐     ┌───────────────┐     ┌───────────────┐
+ │    KEY1       │     │    KEY2       │     │    KEY3       │
+ │ hapa_private  │     │ hapa2_private │     │ hapa3_private │
+ │ .key          │     │ .key          │     │ .key          │
+ └───────┬───────┘     └───────┬───────┘     └───────┬───────┘
+         │ Sign                 │ Sign                │ Sign
+         ▼                     ▼                     ▼
+ ┌───────────────┐     ┌───────────────┐     ┌───────────────┐
+ │ tx2_sig_key1  │     │ tx2_sig_key2  │     │ tx2_sig_key3  │
+ └───────┬───────┘     └───────┬───────┘     └───────┬───────┘
+         │                     │                     │
+         └─────────── Verifikasi Success ────────────┘
+                              │
+                              ▼
+                ┌─────────────────────────────┐
+                │ SIMULASI TESTNET VALID ✅    │
+                │ Multi-Signature 3 dari 3     │
+                │ Genesis tetap aman           │
+                └─────────────────────────────┘
+
+=====================================================
+⚠ Catatan Penting:
+- Transaksi valid hanya jika **semua 3 kunci menandatangani**
+- Genesis tetap aman → saldo asli 92.500 HAPA tidak tersentuh
+- Cocok untuk latihan dan eksperimen sebelum mainnet
+=====================================================
