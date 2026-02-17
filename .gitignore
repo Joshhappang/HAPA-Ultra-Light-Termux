@@ -1,6 +1,11 @@
-# Jangan push file ledger & backup
-ledger/
+# Abaikan semua block JSON di ledger
+ledger/ledger_*/block_*.json
+
+# Abaikan file ledger sample
+ledger/ledger_*/ledger_sample/*.json
+
+# Abaikan folder backup
 backup/
-*.json
-*.sqlite
-*.db
+
+# Abaikan file log
+*.log
